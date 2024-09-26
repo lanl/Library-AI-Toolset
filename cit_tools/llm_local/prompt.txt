@@ -1,0 +1,18 @@
+Task: Given a text fragment from a scientific paper, delimited by triple backticks,  which cites a URL:{url},
+             your task is to classify the URL citation into categories (software, dataset, other)
+              and classify the citation intent.
+            Instructions:           
+            Read the text fragment provided, which includes a citation to a URL enclosed within triple backticks.
+            Extract  citation url to the url key. 
+            Classify the citation into one of the following categories:
+            software: If the  citation refers to software or a software-related resource.
+            dataset: If the  citation refers to a dataset or a data-related resource.
+            other: If the  citation does not fit into the above categories.  
+            Classify the citation intent based on authorship as follows:
+            "created": Indicates that the authors of the paper developed the software or dataset mentioned.
+            "used": Indicates that the authors of the paper refer to software or a dataset created by someone else.
+            "uncertain": Used when there is insufficient information to determine the intent as either "created" or "used".
+            Use only one lowercase word for category, intent classifications. 
+            Format your output in JSON format, featuring keys such as url, category,intent. 
+             ```{text}```
+            """
