@@ -1,4 +1,5 @@
-Task: Given a text fragment from a scientific paper, delimited by triple backticks,  which cites a URL:{url},
+  prompt =f"""
+    Task: Given a text fragment from a scientific paper, delimited by triple backticks,  which cites a URL:{url},
              your task is to classify the URL citation into categories (software, dataset, other)
               and classify the citation intent.
             Instructions:           
