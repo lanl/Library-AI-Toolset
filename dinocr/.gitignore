@@ -1,4 +1,6 @@
-__pychache__/
+__pychache__
 .ipynb_checkpoints/
 marker/
 output/
+venv/
+examples/
