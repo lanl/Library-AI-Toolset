@@ -22,7 +22,7 @@ idna==3.10
 imageio==2.36.1
 ipython==8.12.3
 jedi==0.19.2
-Jinja2==3.1.3
+Jinja2>=3.1.4
 jsonschema==4.23.0
 jsonschema-specifications==2024.10.1
 jupyter_client==8.6.3
@@ -47,7 +47,7 @@ pandocfilters==1.5.1
 parso==0.8.4
 pdftext==0.4.0
 pickleshare==0.7.5
-pillow==10.2.0
+pillow>=10.3.0
 platformdirs==4.3.6
 prompt_toolkit==3.0.48
 pure_eval==0.2.3
@@ -88,7 +88,7 @@ tokenizers==0.21.0
 torch==2.5.1+cu124
 torchaudio==2.5.1+cu124
 torchvision==0.20.1+cu124
-tornado==6.4.2
+tornado>=6.4.2
 tqdm==4.67.1
 traitlets==5.14.3
 transformers==4.47.0
